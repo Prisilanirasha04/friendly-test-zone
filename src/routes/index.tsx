@@ -1,24 +1,70 @@
 import { createFileRoute } from "@tanstack/react-router";
+import Layout from "@/components/layout/Layout";
+import Hero from "@/components/home/Hero";
+import ProcessPreview from "@/components/home/ProcessPreview";
+import Philosophy from "@/components/home/Philosophy";
+import GalleryPreview from "@/components/home/GalleryPreview";
+import VideoShowcase from "@/components/home/VideoShowcase";
+import VideoSection from "@/components/home/VideoSection";
+import { motion } from "framer-motion";
+import { Link } from "@tanstack/react-router";
+import { Button } from "@/components/ui/button";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+const Index = () => {
+  return (
+    <Layout>
+      <Hero />
+      <VideoSection />
+      <VideoShowcase />
+      <ProcessPreview />
+      <Philosophy />
+      <GalleryPreview />
+      
+      {/* CTA Section */}
+      <section className="section-padding relative overflow-hidden bg-gradient-to-b from-cream to-cream-dark">
+        {/* Decorative background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-sage/10 via-transparent to-terracotta/10 -z-10" />
+        <div className="absolute top-20 right-20 w-80 h-80 bg-primary/5 rounded-full blur-[80px]" />
+        
+        <div className="container-narrow text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="w-16 h-0.5 bg-gradient-to-r from-primary to-ochre mx-auto mb-10" />
+            <p className="text-caption text-primary mb-4">Thank You</p>
+            <h2 className="heading-section text-foreground mb-6">Supporting Slow Fashion</h2>
+            <p className="text-elegant text-foreground/75 max-w-xl mx-auto mb-4">
+              When you choose natural dye, you choose clothing that respects the planet 
+              and celebrates craftsmanship.
+            </p>
+            <p className="text-xl font-display font-medium italic text-primary max-w-lg mx-auto mb-12">
+              For orders, custom enquiries, collaborations, or general questions — 
+              feel free to reach out.
+            </p>
+            <Button variant="botanical" size="lg" asChild className="shadow-glow">
+              <Link to="/contact">Get in Touch</Link>
+            </Button>
+          </motion.div>
+        </div>
+      </section>
+    </Layout>
+  );
+};
+
+
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Niraé | Botanical Eco-Print Clothing" },
+      { name: "description", content: "One-of-a-kind handmade garments naturally dyed with botanical eco-printing. Slow, sustainable, wearable art." },
+      { property: "og:title", content: "Niraé | Botanical Eco-Print Clothing" },
+      { property: "og:description", content: "One-of-a-kind handmade garments naturally dyed with botanical eco-printing. Slow, sustainable, wearable art." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
-
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
-function Index() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
