@@ -1,4 +1,4 @@
-# Friendly Test Zone
+# Nirae project
 
 test project
 
