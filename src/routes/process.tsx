@@ -1,16 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import Layout from "@/components/layout/Layout";
-import fabricMordantAsset from "@/assets/fabric-mordant.jpg.asset.json";
-const fabricMordant = fabricMordantAsset.url;
-import fabricDyeingAsset from "@/assets/fabric-dyeing.jpg.asset.json";
-const fabricDyeing = fabricDyeingAsset.url;
-import fabricDelicateAsset from "@/assets/fabric-delicate.jpg.asset.json";
-const fabricDelicate = fabricDelicateAsset.url;
-import fabricStackAsset from "@/assets/fabric-stack.jpg.asset.json";
-const fabricStack = fabricStackAsset.url;
-import fabricSamplesAsset from "@/assets/fabric-samples.jpg.asset.json";
-const fabricSamples = fabricSamplesAsset.url;
+import fabricMordant from "@/assets/fabric-mordant.jpg";
+import fabricDyeing from "@/assets/fabric-dyeing.jpg";
+import fabricDelicate from "@/assets/fabric-delicate.jpg";
+import fabricStack from "@/assets/fabric-stack.jpg";
+import fabricSamples from "@/assets/fabric-samples.jpg";
 
 const processSteps = [
   {

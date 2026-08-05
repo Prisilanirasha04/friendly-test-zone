@@ -1,10 +1,8 @@
 import { motion } from "framer-motion";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import heroImageAsset from "@/assets/fabric-delicate.jpg.asset.json";
-const heroImage = heroImageAsset.url;
-import colorSamplesAsset from "@/assets/color-samples.jpg.asset.json";
-const colorSamples = colorSamplesAsset.url;
+import heroImage from "@/assets/fabric-delicate.jpg";
+import colorSamples from "@/assets/color-samples.jpg";
 
 const Hero = () => {
   return (

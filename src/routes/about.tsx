@@ -3,10 +3,8 @@ import { motion } from "framer-motion";
 import Layout from "@/components/layout/Layout";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import fabricDelicateAsset from "@/assets/fabric-delicate.jpg.asset.json";
-const fabricDelicate = fabricDelicateAsset.url;
-import fabricStackAsset from "@/assets/fabric-stack.jpg.asset.json";
-const fabricStack = fabricStackAsset.url;
+import fabricDelicate from "@/assets/fabric-delicate.jpg";
+import fabricStack from "@/assets/fabric-stack.jpg";
 
 const About = () => {
   return (
