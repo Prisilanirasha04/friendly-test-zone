@@ -1,10 +1,14 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import fabricMordant from "@/assets/fabric-mordant.jpg";
-import fabricDyeing from "@/assets/fabric-dyeing.jpg";
-import fabricStack from "@/assets/fabric-stack.jpg";
-import processCreating from "@/assets/process-creating.jpg";
+import fabricMordantAsset from "@/assets/fabric-mordant.jpg.asset.json";
+const fabricMordant = fabricMordantAsset.url;
+import fabricDyeingAsset from "@/assets/fabric-dyeing.jpg.asset.json";
+const fabricDyeing = fabricDyeingAsset.url;
+import fabricStackAsset from "@/assets/fabric-stack.jpg.asset.json";
+const fabricStack = fabricStackAsset.url;
+import processCreatingAsset from "@/assets/process-creating.jpg.asset.json";
+const processCreating = processCreatingAsset.url;
 
 const steps = [
   { image: fabricMordant, title: "Mordanting", description: "Preparing fabric with natural fixatives" },

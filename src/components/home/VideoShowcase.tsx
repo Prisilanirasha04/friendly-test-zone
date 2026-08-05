@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
-import dyeingProcess1 from "@/assets/dyeing-process-1.jpg";
-import dyeingProcess2 from "@/assets/dyeing-process-2.jpg";
-import fabricCollectionNew from "@/assets/fabric-collection-new.jpg";
+import dyeingProcess1Asset from "@/assets/dyeing-process-1.jpg.asset.json";
+const dyeingProcess1 = dyeingProcess1Asset.url;
+import dyeingProcess2Asset from "@/assets/dyeing-process-2.jpg.asset.json";
+const dyeingProcess2 = dyeingProcess2Asset.url;
+import fabricCollectionNewAsset from "@/assets/fabric-collection-new.jpg.asset.json";
+const fabricCollectionNew = fabricCollectionNewAsset.url;
 
 const VideoShowcase = () => {
   return (
