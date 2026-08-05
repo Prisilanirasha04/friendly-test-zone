@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import videoAsset from "@/assets/dyeing-video.mp4.asset.json";
 
 const VideoSection = () => {
   return (
@@ -26,7 +27,7 @@ const VideoSection = () => {
               controls
               className="w-full aspect-video object-cover"
             >
-              <source src="/1000213615.mp4" type="video/mp4" />
+              <source src={videoAsset.url} type="video/mp4" />
             </video>
             {/* Subtle overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 via-transparent to-transparent pointer-events-none" />
