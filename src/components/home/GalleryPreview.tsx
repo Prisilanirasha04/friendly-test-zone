@@ -1,20 +1,13 @@
 import { motion } from "framer-motion";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import collectionVestBagAsset from "@/assets/collection-vest-bag.jpg.asset.json";
-const collectionVestBag = collectionVestBagAsset.url;
-import collectionEmbroideryAsset from "@/assets/collection-embroidery.jpg.asset.json";
-const collectionEmbroidery = collectionEmbroideryAsset.url;
-import collectionPinkDressAsset from "@/assets/collection-pink-dress.jpg.asset.json";
-const collectionPinkDress = collectionPinkDressAsset.url;
-import collectionSageDressAsset from "@/assets/collection-sage-dress.jpg.asset.json";
-const collectionSageDress = collectionSageDressAsset.url;
-import collectionCorsetDetailAsset from "@/assets/collection-corset-detail.jpg.asset.json";
-const collectionCorsetDetail = collectionCorsetDetailAsset.url;
-import collectionLaceDressAsset from "@/assets/collection-lace-dress.jpg.asset.json";
-const collectionLaceDress = collectionLaceDressAsset.url;
-import collectionEmbroideredTopAsset from "@/assets/collection-embroidered-top.jpg.asset.json";
-const collectionEmbroideredTop = collectionEmbroideredTopAsset.url;
+import collectionVestBag from "@/assets/collection-vest-bag.jpg";
+import collectionEmbroidery from "@/assets/collection-embroidery.jpg";
+import collectionPinkDress from "@/assets/collection-pink-dress.jpg";
+import collectionSageDress from "@/assets/collection-sage-dress.jpg";
+import collectionCorsetDetail from "@/assets/collection-corset-detail.jpg";
+import collectionLaceDress from "@/assets/collection-lace-dress.jpg";
+import collectionEmbroideredTop from "@/assets/collection-embroidered-top.jpg";
 
 const pieces = [
   { image: collectionVestBag, title: "Botanical Vest Set", category: "Sets" },
