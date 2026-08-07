@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Layout from "@/components/layout/Layout";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import fabricDelicate from "@/assets/fabric-delicate.jpg";
+import aboutFounder from "@/assets/about-founder.jpg";
 import fabricStack from "@/assets/fabric-stack.jpg";
 
 const About = () => {
