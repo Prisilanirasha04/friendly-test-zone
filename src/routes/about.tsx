@@ -40,8 +40,8 @@ const About = () => {
             >
               <div className="aspect-[4/5] overflow-hidden">
                 <img
-                  src={fabricDelicate}
-                  alt="Delicate naturally dyed fabrics by Niraé"
+                  src={aboutFounder}
+                  alt="Founder portrait of Niraé"
                   className="w-full h-full object-cover"
                 />
               </div>
