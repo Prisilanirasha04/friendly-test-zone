@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/fabric-delicate.jpg";
-import colorSamples from "@/assets/color-samples.jpg";
+import heroImage from "@/assets/home-hero-bg.jpg";
 
 const Hero = () => {
   return (
@@ -11,7 +10,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Naturally dyed handcrafted fabrics by Niraé"
+          alt="Woman wearing a naturally dyed Niraé garment among botanicals"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-earth/95 via-earth/85 to-earth/50" />
@@ -32,22 +31,6 @@ const Hero = () => {
         className="absolute bottom-20 left-20 w-80 h-80 rounded-full bg-ochre/30 blur-[80px]"
       />
 
-      {/* Floating image accent */}
-      <motion.div
-        initial={{ opacity: 0, y: 40, rotate: -5 }}
-        animate={{ opacity: 1, y: 0, rotate: -3 }}
-        transition={{ duration: 1, delay: 1 }}
-        className="absolute bottom-32 right-20 hidden lg:block"
-      >
-        <div className="relative">
-          <img
-            src={colorSamples}
-            alt="Natural dye color samples"
-            className="w-64 h-80 object-cover shadow-elevated rounded-sm"
-          />
-          <div className="absolute -bottom-4 -left-4 w-full h-full border-2 border-terracotta-light/40 rounded-sm -z-10" />
-        </div>
-      </motion.div>
 
       {/* Content */}
       <div className="relative container-wide py-32">
