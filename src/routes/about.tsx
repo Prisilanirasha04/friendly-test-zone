@@ -23,13 +23,23 @@ const About = () => {
                 <span className="italic">Niraé</span>
               </h1>
               <p className="text-elegant text-muted-foreground mb-6">
-                Niraé is a handmade clothing brand built on slow craft, natural dye, 
-                and mindful creation.
+                Hi, I'm Prisila — founder, designer, and the natural dyer behind Niraé.
+              </p>
+              <p className="text-elegant text-muted-foreground mb-6">
+                My journey began with a deep love for nature, textiles, and thoughtful craftsmanship. 
+                Niraé was created as a space where these passions come together through timeless design 
+                and botanical color. Every piece is an expression of slow fashion, crafted with care using 
+                natural dye techniques on pure fabrics such as silk and cotton.
+              </p>
+              <p className="text-elegant text-muted-foreground mb-6">
+                At the heart of Niraé is a commitment to sustainability, individuality, and artistry. 
+                By working with botanical pigments, flowers, leaves, tea, and food waste, I transform 
+                natural elements into unique colors and textures that cannot be exactly repeated. 
+                Each garment carries its own story shaped by nature, process, and design.
               </p>
               <p className="text-elegant text-muted-foreground">
-                Every piece begins with fabric, plants, and the patience required to 
-                let nature shape colour. We believe clothing should carry meaning, 
-                not just trends.
+                More than a fashion label, Niraé is a reflection of my design philosophy: creating pieces 
+                that feel elegant, meaningful, and deeply connected to the beauty of the natural world.
               </p>
             </motion.div>
 
