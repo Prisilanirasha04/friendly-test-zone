@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Layout from "@/components/layout/Layout";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import fabricDelicate from "@/assets/fabric-delicate.jpg";
+import aboutFounder from "@/assets/about-founder.jpg";
 import fabricStack from "@/assets/fabric-stack.jpg";
 
 const About = () => {
@@ -40,8 +40,8 @@ const About = () => {
             >
               <div className="aspect-[4/5] overflow-hidden">
                 <img
-                  src={fabricDelicate}
-                  alt="Delicate naturally dyed fabrics by Niraé"
+                  src={aboutFounder}
+                  alt="Founder portrait of Niraé"
                   className="w-full h-full object-cover"
                 />
               </div>
