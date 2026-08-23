@@ -9,6 +9,11 @@ import collectionSageDress from "@/assets/collection-sage-dress.jpg";
 import collectionCorsetDetail from "@/assets/collection-corset-detail.jpg";
 import collectionLaceDress from "@/assets/collection-lace-dress.jpg";
 import collectionEmbroideredTop from "@/assets/collection-embroidered-top.jpg";
+import galleryRosewoodCardigan from "@/assets/gallery-rosewood-cardigan.jpg";
+import galleryBotanicNoir from "@/assets/gallery-botanic-noir.jpg";
+import galleryGoldenDreamDress from "@/assets/gallery-golden-dream-dress.jpg";
+import galleryMidnightBloomKaftan from "@/assets/gallery-midnight-bloom-kaftan.jpg";
+import galleryDustyPetalDress from "@/assets/gallery-dusty-petal-dress.jpg";
 
 const categories = ["All", "Dresses", "Tops", "Sets", "Details"];
 
