@@ -71,19 +71,6 @@ const Philosophy = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              className="absolute -bottom-8 -left-8 w-40 h-48 overflow-hidden shadow-elevated rounded-sm border-4 border-background"
-            >
-              <img
-                src={colorSamples}
-                alt="Natural dye color variations"
-                className="w-full h-full object-cover"
-              />
-            </motion.div>
             <div className="absolute -top-6 -right-6 w-32 h-32 bg-gradient-to-br from-sage/20 to-transparent rounded-full blur-2xl -z-10" />
           </motion.div>
         </div>
@@ -150,8 +137,8 @@ const Philosophy = () => {
           >
             <div className="aspect-[4/3] overflow-hidden relative shadow-elevated rounded-sm">
               <img
-                src={fabricSamples}
-                alt="Unique natural dye fabric samples"
+                src={uniqueFabricBundle}
+                alt="Hand-shaped fabric bundle ready for natural dyeing"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-earth/30 to-transparent" />
