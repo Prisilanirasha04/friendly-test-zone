@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import fabricDyeing from "@/assets/fabric-dyeing.jpg";
-import fabricSamples from "@/assets/fabric-samples.jpg";
-import colorSamples from "@/assets/color-samples.jpg";
+import uniqueFabricBundle from "@/assets/unique-fabric-bundle.jpg";
 
 const Philosophy = () => {
   return (
