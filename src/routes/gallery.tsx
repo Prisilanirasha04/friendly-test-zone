@@ -9,6 +9,11 @@ import collectionSageDress from "@/assets/collection-sage-dress.jpg";
 import collectionCorsetDetail from "@/assets/collection-corset-detail.jpg";
 import collectionLaceDress from "@/assets/collection-lace-dress.jpg";
 import collectionEmbroideredTop from "@/assets/collection-embroidered-top.jpg";
+import galleryRosewoodCardigan from "@/assets/gallery-rosewood-cardigan.jpg";
+import galleryBotanicNoir from "@/assets/gallery-botanic-noir.jpg";
+import galleryGoldenDreamDress from "@/assets/gallery-golden-dream-dress.jpg";
+import galleryMidnightBloomKaftan from "@/assets/gallery-midnight-bloom-kaftan.jpg";
+import galleryDustyPetalDress from "@/assets/gallery-dusty-petal-dress.jpg";
 
 const categories = ["All", "Dresses", "Tops", "Sets", "Details"];
 
@@ -55,12 +60,47 @@ const galleryItems = [
     category: "Dresses",
     description: "Eco-printed lace with subtle botanical accents" 
   },
-  { 
-    id: 7, 
-    image: collectionEmbroideredTop, 
-    title: "Embroidered Blouse", 
+  {
+    id: 7,
+    image: collectionEmbroideredTop,
+    title: "Embroidered Blouse",
     category: "Tops",
-    description: "Traditional embroidery meets eco-printing" 
+    description: "Traditional embroidery meets eco-printing"
+  },
+  {
+    id: 8,
+    image: galleryRosewoodCardigan,
+    title: "Rosewood Cardigan",
+    category: "Tops",
+    description: "Soft botanical-toned cardigan dyed with natural rosewood hues"
+  },
+  {
+    id: 9,
+    image: galleryBotanicNoir,
+    title: "Botanic Noir",
+    category: "Dresses",
+    description: "Deep leaf prints on flowing fabric, gathered in the garden's shade"
+  },
+  {
+    id: 10,
+    image: galleryGoldenDreamDress,
+    title: "Golden Dream Dress",
+    category: "Dresses",
+    description: "Marigold and turmeric tones blooming across a halter silhouette"
+  },
+  {
+    id: 11,
+    image: galleryMidnightBloomKaftan,
+    title: "Midnight Bloom Kaftan",
+    category: "Dresses",
+    description: "Dusky eco-printed kaftan with petals pressed deep into the weave"
+  },
+  {
+    id: 12,
+    image: galleryDustyPetalDress,
+    title: "Dusty Petal Dress",
+    category: "Dresses",
+    description: "Faded rose and petal pigments resting on soft, airy silk"
   },
 ];
 
