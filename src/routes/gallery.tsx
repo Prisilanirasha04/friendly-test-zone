@@ -6,7 +6,7 @@ import collectionVestBag from "@/assets/collection-vest-bag.jpg";
 import collectionEmbroidery from "@/assets/collection-embroidery.jpg";
 import collectionPinkDress from "@/assets/collection-pink-dress.jpg";
 import collectionSageDress from "@/assets/collection-sage-dress.jpg";
-import collectionCorsetDetail from "@/assets/collection-corset-detail.jpg";
+
 import collectionLaceDress from "@/assets/collection-lace-dress.jpg";
 import collectionEmbroideredTop from "@/assets/collection-embroidered-top.jpg";
 import galleryRosewoodCardigan from "@/assets/gallery-rosewood-cardigan.jpg";
@@ -45,13 +45,6 @@ const galleryItems = [
     title: "Sage Garden Dress", 
     category: "Dresses",
     description: "Natural dyed sage with stone bead straps" 
-  },
-  { 
-    id: 5, 
-    image: collectionCorsetDetail, 
-    title: "Floral Corset Detail", 
-    category: "Details",
-    description: "Hand-stitched corset with botanical embroidery" 
   },
   { 
     id: 6, 
